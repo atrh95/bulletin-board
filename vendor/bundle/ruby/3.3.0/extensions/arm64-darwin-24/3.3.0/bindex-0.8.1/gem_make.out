@@ -1,0 +1,18 @@
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/akitorahayashi/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-8mzog sitelibdir\=./.gem.20250705-49708-8mzog clean
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-8mzog sitelibdir\=./.gem.20250705-49708-8mzog
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-8mzog sitelibdir\=./.gem.20250705-49708-8mzog install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20250705-49708-8mzog/skiptrace/internal
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-8mzog sitelibdir\=./.gem.20250705-49708-8mzog clean

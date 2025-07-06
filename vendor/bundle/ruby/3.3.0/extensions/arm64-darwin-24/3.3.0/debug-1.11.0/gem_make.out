@@ -1,0 +1,19 @@
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+/Users/akitorahayashi/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-itw19k sitelibdir\=./.gem.20250705-49708-itw19k clean
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-itw19k sitelibdir\=./.gem.20250705-49708-itw19k
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-itw19k sitelibdir\=./.gem.20250705-49708-itw19k install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20250705-49708-itw19k/debug
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250705-49708-itw19k sitelibdir\=./.gem.20250705-49708-itw19k clean

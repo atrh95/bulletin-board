@@ -1,0 +1,18 @@
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/akitorahayashi/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250705-48230-ba8l3r sitelibdir\=./.gem.20250705-48230-ba8l3r clean
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250705-48230-ba8l3r sitelibdir\=./.gem.20250705-48230-ba8l3r
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250705-48230-ba8l3r sitelibdir\=./.gem.20250705-48230-ba8l3r install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250705-48230-ba8l3r/racc
+
+current directory: /Users/akitorahayashi/Desktop/Ruby Projects/bulletin-board/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250705-48230-ba8l3r sitelibdir\=./.gem.20250705-48230-ba8l3r clean
