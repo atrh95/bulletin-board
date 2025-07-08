@@ -15,5 +15,26 @@ class PostsController < ApplicationController
     @post.save
     redirect_to("/posts/index")
   end
-  
+
+  def edit
+    @post = Post.find_by(id: params[:id])
+  end
+
+  def update
+    @post = Post.find_by(id: params[:id])
+    @post.content = params[:content]
+    @post.save
+    redirect_to("/posts/index")
+  end
+
+  def destroy
+    @post = Post.find_by(id: params[:id])
+    if request.delete? || params[:confirmed] == "true"
+      @post.destroy
+      redirect_to("/posts/index")
+    else
+      # GET リクエストの場合は確認画面を表示
+      render :destroy_confirm
+    end
+  end
 end
