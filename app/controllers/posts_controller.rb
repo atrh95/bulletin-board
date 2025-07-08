@@ -29,12 +29,7 @@ class PostsController < ApplicationController
 
   def destroy
     @post = Post.find_by(id: params[:id])
-    if request.delete? || params[:confirmed] == "true"
-      @post.destroy
-      redirect_to("/posts/index")
-    else
-      # GET リクエストの場合は確認画面を表示
-      render :destroy_confirm
-    end
+    @post.destroy
+    redirect_to("/posts/index")
   end
 end
