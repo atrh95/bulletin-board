@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+// Flash message auto-hide functionality
+$(document).on('turbolinks:load', function () {
+    var flashMessage = $('.flash');
+    if (flashMessage.length > 0) {
+        setTimeout(function () {
+            flashMessage.fadeOut(500);
+        }, 3000);
+    }
+});

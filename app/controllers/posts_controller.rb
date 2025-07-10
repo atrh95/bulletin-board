@@ -14,6 +14,7 @@ class PostsController < ApplicationController
   def create
     @post = Post.new(content: params[:content])
     if @post.save 
+      flash[:success] = "投稿が作成されました"
       redirect_to("/posts/index")
     else
       render("posts/new")
@@ -28,6 +29,7 @@ class PostsController < ApplicationController
     @post = Post.find_by(id: params[:id])
     @post.content = params[:content]
     if @post.save
+      flash[:success] = "投稿が更新されました"
       redirect_to("/posts/index")
     else 
       render("posts/edit")
@@ -37,6 +39,7 @@ class PostsController < ApplicationController
   def destroy
     @post = Post.find_by(id: params[:id])
     @post.destroy
+    flash[:success] = "投稿が削除されました"
     redirect_to("/posts/index")
   end
 end

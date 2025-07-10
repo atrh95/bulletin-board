@@ -26,6 +26,11 @@
         </li>
       </ul>
     </header>
+    <% if flash[:success] %>
+      <div class="flash">
+        <%= flash[:success] %>
+      </div>
+    <% end %>
     <%= yield %>
   </body>
 </html>
