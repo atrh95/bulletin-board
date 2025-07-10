@@ -10,6 +10,19 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ * 共通スタイル
+ *= require common
+ *
+ * Home controller views
+ *= require home_top
+ *= require home_about
+ *
+ * Posts controller views
+ *= require posts_index
+ *= require posts_show
+ *= require posts_new
+ *= require posts_edit
+ *= require posts_destroy_confirm
+ *
  *= require_self
  */

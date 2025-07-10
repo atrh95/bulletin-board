@@ -1,0 +1,24 @@
+/* posts/new.html.erb specific styles ================================ */
+.posts-new textarea {
+    font-size: 20px;
+    padding: 10px;
+    min-height: 140px;
+    border: 1px solid rgb(216, 218, 223);
+    border-radius: 4px;
+    resize: none;
+}
+
+.error-message {
+    color: #d32f2f;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffebee;
+    border: 1px solid #ffcdd2;
+    border-radius: 4px;
+}
+
+.posts-new textarea::-webkit-input-placeholder {
+    font-size: 24px;
+    opacity: 0.5;
+}
